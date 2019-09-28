@@ -1,0 +1,25 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberthaugen/roberthaugen.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberthaugen/roberthaugen.github.io/issues"
+  },
+  "homepage": "https://github.com/roberthaugen/roberthaugen.github.io#readme",
+  "dependencies": {
+    "gatsby": "^2.15.28",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0"
+  }
+}
