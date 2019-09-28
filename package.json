@@ -4,7 +4,6 @@
   "description": "testing",
   "main": "index.js",
   "scripts": {
-    "test": "testing",
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
