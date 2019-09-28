@@ -4,7 +4,7 @@
   "description": "tester gatsby",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "gatsby": "^2.15.28",
     "react": "^16.10.0",
     "react-dom": "^16.10.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
